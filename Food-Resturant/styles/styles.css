@@ -4,6 +4,23 @@
     margin: 0;
     padding: 0;
 }
+.btn{
+    padding: 18px 32px 18px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+.btn-container{
+    text-align: center;
+}
 #hero{
     height: 652px;
     background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../asset/hero-bg.png);
@@ -15,6 +32,9 @@
 }
 #hero .hero-content{
     width: 726px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 26px; */
 }
 #hero .subtitle{
     color: rgb(255, 255, 255);
@@ -25,6 +45,7 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.8;
+    margin-bottom: 12px;
 }
 #hero .title{
     color: rgb(255, 255, 255);
@@ -34,6 +55,7 @@
     line-height: 55px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 20px;
 }
 #hero .description{
     color: rgb(255, 255, 255);
@@ -44,4 +66,58 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 26px;
+}
+#card-box{
+    width: 937px;
+    margin: 100px auto;
+}
+.card-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /*if gap is enough it won't be applied */
+    font-family: Work Sans;
+}
+/* #card-box .info{
+} */
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+#card-box .title{
+    margin: 0 auto;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card{
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 260px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    background: rgba(82, 195, 3, 0.15);
+    padding: 12px 28px 12px 28px;
+    border-radius: 8px;
 }
